@@ -63,10 +63,10 @@ sleep 2
 # download script
 cd /usr/bin
 wget -O celcom "https://raw.githubusercontent.com/GCghosting/goslow/main/celcom.sh"
-wget -O 20 "https://raw.githubusercontent.com/GCghosting/goslow/main/10.sh"
+wget -O 10 "https://raw.githubusercontent.com/GCghosting/goslow/main/10.sh"
 wget -O 5 "https://raw.githubusercontent.com/GCghosting/goslow/main/5.sh"
-wget -O data "https://raw.githubusercontent.com/GCghosting/goslow/main/check.sh"
-wget -O credit "https://raw.githubusercontent.com/GCghosting/goslow/main/history.sh"
+wget -O ussge "https://raw.githubusercontent.com/GCghosting/goslow/main/usage.sh"
+wget -O history "https://raw.githubusercontent.com/GCghosting/goslow/main/history.sh"
 wget -O token "https://raw.githubusercontent.com/GCghosting/goslow/main/token.sh"
 
 chmod +x 10
