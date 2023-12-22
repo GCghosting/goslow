@@ -30,10 +30,10 @@ case $celcom in
 token
 ;;
 2)
-10
+10gb
 ;;
 3)
-5
+5gb
 ;;
 4)
 usage
