@@ -5,7 +5,7 @@ if [ "${EUID}" -ne 0 ]; then
 echo "You need to run this script as root"
 exit 1
 clear
-fi 
+fi
 
 echo "Input your Information"
 sleep 1
@@ -32,7 +32,7 @@ curl --request POST \
   --data '{
   "msisdn": "'$nombor'",
   "requestFrom": "High_Speed_Internet",
-  "productId": "2060347",
+  "productId": "2060343",
   "additionalInfo": {
     "mi_expiry_date": "'$exp'",
     "miProductId": "'$idd'"
